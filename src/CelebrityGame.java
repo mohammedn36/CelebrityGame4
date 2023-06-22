@@ -135,7 +135,6 @@ public class CelebrityGame {
 		return null; // stub
 	}
 
-	//new
 	public void sstart() {
 		celebGameList.clear();
 		gameWindow.reset();

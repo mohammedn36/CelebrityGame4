@@ -242,7 +242,6 @@ public class StartPanel extends JPanel implements ActionListener {
     startButton.setEnabled(true);
   }
 
-  //new
   public void reset(){
     celebrityCount = controller.getCelebrityGameSize();
     celebrityCountLabel.setText(countLabelText + celebrityCount);

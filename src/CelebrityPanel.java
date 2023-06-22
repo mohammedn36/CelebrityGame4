@@ -218,7 +218,6 @@ public class CelebrityPanel extends JPanel implements ActionListener {
    * to provide the same functionality.
    */
 
-  //new
   private void updateScreen() {
     String guess = guessField.getText();
     StringBuilder cluesAndResponses = new StringBuilder(clueArea.getText());
@@ -270,7 +269,6 @@ public class CelebrityPanel extends JPanel implements ActionListener {
     clueArea.setBackground(Color.white);
     controller.sstart();
   }
-  //up new
 
   public void actionPerformed(ActionEvent ae) {
     Object source = ae.getSource();
